@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-iot-events-data`](https://www.npmjs.com/package/@aws-sdk/client-iot-events-data/v/3.658.0).
+[`@aws-sdk/client-iot-events-data`](https://www.npmjs.com/package/@aws-sdk/client-iot-events-data/v/3.658.1).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-events-data@3.658.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-events-data@3.658.1/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ozLmDRXtskIbumaU0eRtXdK2OAw0qW8ZvOBkv8EjPJdhiPaiW3Znra5Q5uKXaWvK
+sha384-eE1dTL547lh4CDPNA6Ibr6L5GxeFSVRZaZ77YYOCH7hPCM0CemsRH0Zwc+TUxBOX
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-iot-events-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-events-data@3.658.0/index.min.mjs"
+            "@aws-sdk/client-iot-events-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-events-data@3.658.1/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-events-data@3.658.0/index.min.mjs": "sha384-ozLmDRXtskIbumaU0eRtXdK2OAw0qW8ZvOBkv8EjPJdhiPaiW3Znra5Q5uKXaWvK"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-events-data@3.658.1/index.min.mjs": "sha384-eE1dTL547lh4CDPNA6Ibr6L5GxeFSVRZaZ77YYOCH7hPCM0CemsRH0Zwc+TUxBOX"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-iot-events-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-events-data@3.658.0/index.min.mjs"
+                        "@aws-sdk/client-iot-events-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-events-data@3.658.1/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-events-data@3.658.0/index.min.mjs": "sha384-ozLmDRXtskIbumaU0eRtXdK2OAw0qW8ZvOBkv8EjPJdhiPaiW3Znra5Q5uKXaWvK"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-events-data@3.658.1/index.min.mjs": "sha384-eE1dTL547lh4CDPNA6Ibr6L5GxeFSVRZaZ77YYOCH7hPCM0CemsRH0Zwc+TUxBOX"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.658.0`)
+* Always pin to a specific version (`@3.658.1`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-iot-events-data/blob/refs/tags/3.658.0/LICENSE
+https://github.com/cloud-sdk-builds/client-iot-events-data/blob/refs/tags/3.658.1/LICENSE
 ```
 
 ---
